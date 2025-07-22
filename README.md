@@ -12,7 +12,7 @@ The data warehouse is structured into three layers:
 - **Gold Layer**: Optimized business-level tables (facts and dimensions) for reporting and analysis.
 
 This architecture supports reporting, dashboarding, and business intelligence use cases.
-![data architecture](<img width="1342" height="678" alt="data architucture picture" src="https://github.com/user-attachments/assets/71882e4b-8e07-4795-9afc-1da7f1d8d074" />)
+![data architecture](data architucture picture.png)
 
 ---
 
