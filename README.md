@@ -12,6 +12,7 @@ The data warehouse is structured into three layers:
 - **Gold Layer**: Optimized business-level tables (facts and dimensions) for reporting and analysis.
 
 This architecture supports reporting, dashboarding, and business intelligence use cases.
+![data architecture](<img width="1342" height="678" alt="data architucture picture" src="https://github.com/user-attachments/assets/71882e4b-8e07-4795-9afc-1da7f1d8d074" />)
 
 ---
 
@@ -39,3 +40,12 @@ This architecture supports reporting, dashboarding, and business intelligence us
 - Integration: Combine both sources into a single, user-friendly data model designed for analytical queries.
 - Scope: Focus on the latest dataset only; historization of data is not required.
 - Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+
+## BI: Analytics & Reporting (Data Analysis)
+# Objective
+Develop SQL-based analytics to deliver detailed insights into:
+
+- Customer Behavior
+- Product Performance
+- Sales Trends
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
