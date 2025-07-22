@@ -31,6 +31,50 @@ cture picture.png)
 - Fact and dimension tables.
 - Examples:
   - `gold.dim_customers`_
+  ##ERD Diagram (Gold Layer)
+                 +---------------------+
+                 |  dim_customers      |
+                 +---------------------+
+                 | customer_key (PK)   |
+                 | customer_id         |
+                 | customer_number     |
+                 | first_name          |
+                 | last_name           |
+                 | gender              |
+                 | birthdate           |
+                 | country             |
+                 | marital_status      |
+                 | create_date         |
+                 +---------------------+
+
+                 +---------------------+
+                 |  dim_products       |
+                 +---------------------+
+                 | product_key (PK)    |
+                 | product_id          |
+                 | product_number      |
+                 | product_name        |
+                 | category_id         |
+                 | category            |
+                 | subcategory         |
+                 | product_line        |
+                 | cost                |
+                 | start_date          |
+                 +---------------------+
+
+                 +---------------------+
+                 |     fact_sales      |
+                 +---------------------+
+                 | order_number        |
+                 | customer_key (FK)   |
+                 | product_key (FK)    |
+                 | order_date          |
+                 | shipping_date       |
+                 | due_date            |
+                 | quantity            |
+                 | price               |
+                 | sales_amount        |
+                 +---------------------+
  
 ## Building the Data Warehouse (Data Engineering)
 # Objective
