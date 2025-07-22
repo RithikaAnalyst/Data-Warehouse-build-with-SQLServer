@@ -31,7 +31,7 @@ cture picture.png)
 - Fact and dimension tables.
 - Examples:
   - `gold.dim_customers`_
-  ##ERD Diagram (Gold Layer)
+### ERD Diagram (Gold Layer)
                  +---------------------+
                  |  dim_customers      |
                  +---------------------+
